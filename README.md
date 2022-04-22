@@ -1,6 +1,10 @@
 <h1>Obter ativos (ações, FIIs e BDRs) da B3</h1>
 
-Pequeno programa para retornar todos os códigos dos ativos (ações/BDRs) da B3 e os ativos (FII) existentes utilizando os sites www.infomoney.com.br e https://www.fundsexplorer.com.br/
+Pequeno programa para retornar todos os códigos dos ativos (ações/BDRs) da B3 e os ativos (FII) existentes utilizando os sites www.infomoney.com.br e https://www.fundsexplorer.com.br/ com a biblioteca BeautifulSoap
 
 Por enquanto há o arquivo app.py com duas funções:
-retornar_acoes_e
+
+* def retornar_acoes_existentes()
+  * Retornar os ativos obtidos no site da Infomoney. Retorna ações e BDRs (https://www.infomoney.com.br/cotacoes/empresas-b3/)
+* def retornar_fiis_existentes()
+  * Retornar os ativos obtidos no site do Funds Explorer (https://www.fundsexplorer.com.br/funds)
